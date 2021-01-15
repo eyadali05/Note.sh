@@ -5,7 +5,7 @@
 
 Note() {
 	dt=$(date '+%d/%m/%Y %H:%M:%S')
-	cd '/home/eyadali05/Notes'
+	cd 'the directory to your notes'
 	mkdir $1
 	cd $1
 	NOTEFILENAME="$1.md"
